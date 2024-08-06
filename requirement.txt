@@ -96,6 +96,7 @@ notebook==7.0.6
 notebook_shim==0.2.3
 numexpr==2.10.0
 numpy==1.21.6
+pywin32==306; platform_system == "Windows"
 overrides==7.4.0
 packaging==23.2
 pandas==2.2.0
