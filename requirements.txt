@@ -1,6 +1,6 @@
 click==7.1.2
 Flask==1.1.2
-scikit-learn==1.2.2
+scikit-learn
 flask_cors
 gunicorn==20.1.0
 itsdangerous==1.1.0
