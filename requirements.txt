@@ -4,4 +4,4 @@ flask_cors
 gunicorn==20.1.0
 numpy==1.21.0
 cython==0.29.32
-pandas==1.2.3
+pandas==2.2.2
