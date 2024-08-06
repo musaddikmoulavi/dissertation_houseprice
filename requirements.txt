@@ -1,11 +1,11 @@
 click==7.1.2 
 Flask==1.1.2
+numpy
+cython
 scikit-learn==1.2.2
 flask_cors
 gunicorn==20.1.0 
 itsdangerous==1.1.0 
 Jinja2==2.11.3
-numpy
 MarkupSafe==1.1.1
-cython==0.29.32
 pandas==1.2.3
