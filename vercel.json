@@ -5,5 +5,12 @@
     ],
     "routes": [
       {"src": "/(.*)", "dest": "server.py"}
-    ]
+    ],
+    "builds": [
+    {
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
+    }
+  ]
 }
+
