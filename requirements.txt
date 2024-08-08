@@ -1,5 +1,5 @@
 click==8.1.7
-Cython==3.0.0
+Cython==3.0.10
 Flask==3.0.2
 scikit-learn==1.2.2
 Flask-Cors==4.0.1
