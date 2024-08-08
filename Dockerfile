@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     && apt-get clean
 
-# Install Rust (if still needed)
+# Install Rust (if needed by any of your dependencies)
 RUN curl https://sh.rustup.rs -sSf | sh -s -- -y && \
     . $HOME/.cargo/env
 
@@ -20,6 +20,9 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 
 # Copy the rest of the application
 COPY . .
+
+# Expose port (if necessary)
+EXPOSE 8000
 
 # Command to run the application
 CMD ["python", "server.py"]
