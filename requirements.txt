@@ -1,5 +1,5 @@
 click==8.1.7
-Cython==3.0.10
+Cython==3.0.0
 Flask==3.0.2
 scikit-learn==1.2.2
 Flask-Cors==4.0.1
@@ -15,4 +15,3 @@ pandas==2.2.0
 setuptools==70.0.0
 Werkzeug==3.0.1
 wheel==0.42.0
-
